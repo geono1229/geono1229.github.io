@@ -25,10 +25,10 @@ latest_posts:
 
 Hi! I am Geono Kim, a senior undergraduate student in the **Department of Chemical and Biological Engineering at Seoul National University (SNU)**, expecting to graduate in February 2027. 
 
-My primary research interests lie at the intersection of fluid mechanics and chemical engineering. Specifically, I am passionate about **Rheology, Non-Newtonian Fluid Mechanics, and Computational Fluid Dynamics (CFD)**. I enjoy exploring complex transport phenomena and applying data-driven modeling techniques, such as Physics-Informed Neural Networks (PINNs) and Sparse Identification of Nonlinear Dynamics (SINDy), to understand polymer processing and fluid dynamics.
+My primary research interests lie at the intersection of fluid mechanics and chemical engineering. Specifically, I am passionate about **Rheology, Non-Newtonian Fluid Mechanics, and Computational Fluid Dynamics (CFD)**. 
 
 Currently, I am working as an undergraduate research intern at the Microfluidics and Coating Process Laboratory, where I focus on modeling slot-die coating flows and quantifying vortex onset. I am actively preparing to apply for **Ph.D. programs in Chemical Engineering and Applied Physics for Fall 2027**.
 
-Beyond research, I am a huge cinephile. I love analyzing classic and independent films, particularly the works of directors like Jean-Luc Godard, Charlie Chaplin, and Alfred Hitchcock. I also enjoy powerbuilding and exploring the history and production of distilled spirits.
+Beyond research, I like wathcing movies, especially the works of directors like Jean-Luc Godard, Charlie Chaplin, and Alfred Hitchcock.
 
 Feel free to reach out via [email](mailto:geonoh2@gmail.com) if you would like to discuss fluid dynamics, research opportunities, or even classic cinema!
