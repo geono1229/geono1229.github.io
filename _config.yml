@@ -2,14 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Geono Kim # the website title (if blank, full name will be used instead)
+title: Geono Kim
 first_name: Geono
-middle_name: 
+middle_name:
 last_name: Kim
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Undergraduate student in Seoul National University, Department of Chemical and Biological Engineering 
+contact_note:
+description:
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
