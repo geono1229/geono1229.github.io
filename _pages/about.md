@@ -5,6 +5,6 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
 social: true
 ---
