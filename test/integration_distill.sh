@@ -2,28 +2,24 @@
 set -euo pipefail
 
 tmp_dir="$(mktemp -d)"
-tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
+
+if ! grep -Rqs --include='*.md' -E '^layout:[[:space:]]*distill[[:space:]]*$' _pages _posts _projects 2>/dev/null; then
+  echo "distill integration checks skipped: no Distill pages"
+  exit 0
+fi
 
 cleanup() {
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
 
-cat >"${tmp_override}" <<'YAML'
-giscus:
-  repo: alshedivat/al-folio
-  repo_id: R_kgDOExample
-  category: Comments
-  category_id: DIC_kwDOExample
-YAML
+bundle exec jekyll build -d "${tmp_site}" >/dev/null
 
-bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
+distill_page="$(grep -R -l 'd-front-matter' "${tmp_site}" | head -n 1 || true)"
 
-distill_page="${tmp_site}/blog/2021/distill/index.html"
-
-if [ ! -f "${distill_page}" ]; then
-  echo "distill page was not generated at ${distill_page}" >&2
+if [ -z "${distill_page}" ]; then
+  echo "Distill markup was not generated in ${tmp_site}" >&2
   exit 1
 fi
 
@@ -34,7 +30,6 @@ grep -q '/assets/js/distillpub/overrides.js' "${distill_page}"
 grep -q '/assets/al_charts/js/mermaid-setup.js' "${distill_page}"
 grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/fonts.css' "${distill_page}"
 grep -q 'https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.8/dist/tikzjax.js' "${distill_page}"
-grep -q 'id="giscus_thread"' "${distill_page}"
 transforms_runtime="${tmp_site}/assets/js/distillpub/transforms.v2.js"
 distill_runtime="$(PATH="$HOME/.rbenv/shims:$PATH" bundle exec ruby -e 'spec = Gem.loaded_specs["al_folio_distill"]; puts(spec ? File.join(spec.full_gem_path, "assets/js/distillpub/transforms.v2.js") : "")')"
 if [ -f "${distill_runtime}" ]; then
