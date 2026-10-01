@@ -5,3 +5,5 @@ permalink: /cv/
 nav: true
 nav_order: 2
 ---
+
+[View or download CV]({{ '/assets/pdf/Portfolio_CV_KimGeono.pdf' | relative_url }})
