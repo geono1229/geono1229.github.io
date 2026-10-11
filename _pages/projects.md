@@ -19,3 +19,8 @@ nav_order: 2
 ---
 
 ## Course
+
+---
+
+If you want the detailed report or slides, check the
+[Notes]({{ '/notes/' | relative_url }}) page.

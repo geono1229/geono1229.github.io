@@ -55,5 +55,5 @@ Seminar presentations, journal-club slides, and group-meeting decks.
 
 ---
 
-Want the underlying code and simulations? See the
+If you want to see the code used, check the
 [Projects]({{ '/projects/' | relative_url }}) page.
