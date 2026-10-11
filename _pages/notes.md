@@ -6,10 +6,7 @@ nav: true
 nav_order: 4
 ---
 
-> Working thoughts, technical logs, and talks.
-
-Reports, essays, and slides that document the thinking behind my work. For the code and
-implementations referenced here, see the [Projects]({{ '/projects/' | relative_url }}) page.
+> Reports, essays, and slides that document the thinking behind my work.
 
 ---
 
@@ -52,21 +49,9 @@ cinema aesthetic reviews.
 
 ---
 
-### Slides & Talks
+### Slides
 
 Seminar presentations, journal-club slides, and group-meeting decks.
-
-- **Student-Directed Seminar: Rheology & Machine Learning** — seminar presentation.
-  Overview of data-driven constitutive modeling (SINDy, PINNs) for complex fluids.
-  [Slides PDF]({{ '/assets/pdf/slides-rheology-ml.pdf' | relative_url }}) <!-- TODO: add PDF -->
-  · Code: [Projects → Rheo-SINDy / PINN]({{ '/projects/' | relative_url }})
-
-- **Journal Club: Coating-Flow Instabilities** — paper discussion slides.
-  [Slides PDF]({{ '/assets/pdf/slides-journal-club.pdf' | relative_url }}) <!-- TODO: add PDF -->
-
-- **Group Meeting: Vortex Mapping Progress** — weekly group-meeting presentation.
-  [Slides PDF]({{ '/assets/pdf/slides-group-meeting.pdf' | relative_url }}) <!-- TODO: add PDF -->
-  · Related work: [Projects → Slot-Die Coating]({{ '/projects/' | relative_url }})
 
 ---
 
