@@ -6,14 +6,7 @@ nav: true
 nav_order: 4
 ---
 
-> Reports, essays, and slides that document the thinking behind my work.
-
----
-
 ### Reports
-
-Technical reports, equipment experience (SEM / Raman), and numerical-analysis logs.
-Reports written in Korean include a short English abstract (2–3 sentences) for readers.
 
 - **Slot-Die Coating Bead Characterization** — experimental report (Korean).
   _English abstract:_ This report characterizes the coating-bead flow in slot-die coating
@@ -37,9 +30,6 @@ Reports written in Korean include a short English abstract (2–3 sentences) for
 
 ### Essays
 
-Philosophical reflections on fluid dynamics and constitutive modeling, plus film and
-cinema aesthetic reviews.
-
 - **On the Memory of Fluids** — a reflection on viscoelasticity and how constitutive
   models encode a material's history. <!-- TODO: link draft or PDF -->
 - **Turbulence as Metaphor** — notes on determinism, chaos, and prediction in fluid
@@ -50,10 +40,3 @@ cinema aesthetic reviews.
 ---
 
 ### Slides
-
-Seminar presentations, journal-club slides, and group-meeting decks.
-
----
-
-If you want to see the code used, check the
-[Projects]({{ '/projects/' | relative_url }}) page.

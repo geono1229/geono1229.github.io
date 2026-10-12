@@ -6,6 +6,6 @@ nav: true
 nav_order: 5
 ---
 
-> I enjoy moving pictures—and sometimes, still ones.
+I enjoy moving pictures—and sometimes, still ones.
 
 ---

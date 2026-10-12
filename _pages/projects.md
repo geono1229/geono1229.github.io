@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-> Selected research, personal, and course projects.
+Selected research, personal, and course projects.
 
 ---
 
