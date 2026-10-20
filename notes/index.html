@@ -23,6 +23,12 @@
     border-radius: 8px;
   }
 
+  /* Keep plot axes and legends visible instead of cropping technical figures. */
+  .note-preview__image--figure {
+    object-fit: contain;
+    background: #fff;
+  }
+
   .note-preview__title {
     margin: 0 0 8px;
     font-size: 1.25rem;
@@ -50,6 +56,17 @@
     overflow-wrap: anywhere;
   }
 
+  .note-preview__credit {
+    margin: 6px 0 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+
+  .note-preview__credit a {
+    color: inherit;
+    text-underline-offset: 2px;
+  }
+
   @media (max-width: 575px) {
     .note-preview {
       grid-template-columns: 96px minmax(0, 1fr);
@@ -60,7 +77,7 @@
       font-size: 1.1rem;
     }
   }
-</style> <h3 id="reports">Reports</h3> <article class="note-preview"> <img class="note-preview__image" src="/assets/img/1.jpg" alt="" width="160" height="120" loading="lazy"> <div> <h4 class="note-preview__title"> <a href="/assets/pdf/reports/HyperMesh.pdf" target="_blank" rel="noopener noreferrer">HyperMesh.pdf</a> </h4> <p class="note-preview__description">A sample report on HyperMesh.</p> </div> </article> <hr> <h3 id="essays">Essays</h3> <hr> <h3 id="slides">Slides</h3> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Geono Kim. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
+</style> <h3 id="reports">Reports</h3> <article class="note-preview"> <img class="note-preview__image note-preview__image--figure" src="/assets/img/Notes/Reports/hypermesh-cylinder-flow.webp" alt="Simulated streamlines and vortex shedding behind a circular cylinder" width="160" height="120" loading="lazy"> <div> <h4 class="note-preview__title"> <a href="/assets/pdf/reports/HyperMesh.pdf" target="_blank" rel="noopener noreferrer">HyperMesh.pdf</a> </h4> <p class="note-preview__description">CFD analysis of cylinder flow, vortex shedding, and surface pressure.</p> </div> </article> <article class="note-preview"> <img class="note-preview__image note-preview__image--figure" src="/assets/img/Notes/Reports/panel-airfoil-pressure.webp" alt="Pressure contours around a Joukowski airfoil calculated with the panel method" width="160" height="120" loading="lazy"> <div> <h4 class="note-preview__title"> <a href="/assets/pdf/reports/Panel.pdf" target="_blank" rel="noopener noreferrer">Panel.pdf</a> </h4> <p class="note-preview__description">Panel-method analysis of potential flow around cylinders and Joukowski airfoils.</p> </div> </article> <hr> <h3 id="essays">Essays</h3> <article class="note-preview"> <img class="note-preview__image" src="/assets/img/Notes/Essays/asteroid-city.webp" alt="Midge at a turquoise motel window at sunset in Asteroid City" width="160" height="120" loading="lazy"> <div> <h4 class="note-preview__title"> <a href="/assets/pdf/essays/Asteroid%20city.pdf" target="_blank" rel="noopener noreferrer">Asteroid City.pdf</a> </h4> <p class="note-preview__description">Cinema, grief, and the possibility of healing in Wes Anderson's Asteroid City.</p> <p class="note-preview__credit"> Film still: <a href="https://www.focusfeatures.com/article/asteroid-city_first-look" target="_blank" rel="noopener noreferrer">Focus Features</a> </p> </div> </article> <article class="note-preview"> <img class="note-preview__image" src="/assets/img/Notes/Essays/still-life.webp" alt="Shen Hong overlooking the river and misty mountains in Still Life" width="160" height="120" loading="lazy"> <div> <h4 class="note-preview__title"> <a href="/assets/pdf/essays/Still%20Life.pdf" target="_blank" rel="noopener noreferrer">Still Life.pdf</a> </h4> <p class="note-preview__description">Recording individual histories through documentary and fiction in Jia Zhangke's Dong and Still Life.</p> <p class="note-preview__credit"> Film still: <a href="https://bigworldpictures.org/films/stilllife/index.html" target="_blank" rel="noopener noreferrer">Big World Pictures</a> </p> </div> </article> <hr> <h3 id="slides">Slides</h3> <article class="note-preview"> <img class="note-preview__image note-preview__image--figure" src="/assets/img/Notes/Slides/axial-compressor-blades.webp" alt="Mach-number contours around optimized axial compressor rotor and stator blades" width="160" height="120" loading="lazy"> <div> <h4 class="note-preview__title"> <a href="/assets/pdf/slides/26-1%20Flow%20and%20Design%20Term%20Project.pdf" target="_blank" rel="noopener noreferrer"> 26-1 Flow and Design Term Project.pdf </a> </h4> <p class="note-preview__description">Blade geometry and blade-count optimization for single-stage axial flow compressors.</p> </div> </article> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Geono Kim. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
