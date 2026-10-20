@@ -1,0 +1,29 @@
+{
+  "Reports/hypermesh-cylinder-flow.webp": {
+    "source": "assets/pdf/reports/HyperMesh.pdf",
+    "page": 2,
+    "figure": "Figure 2(a), instantaneous streamlines"
+  },
+  "Reports/panel-airfoil-pressure.webp": {
+    "source": "assets/pdf/reports/Panel.pdf",
+    "page": 4,
+    "figure": "Joukowski airfoil pressure field"
+  },
+  "Slides/axial-compressor-blades.webp": {
+    "source": "assets/pdf/slides/26-1 Flow and Design Term Project.pdf",
+    "page": 9,
+    "figure": "Final Optimization, Mach-number contour plot"
+  },
+  "Essays/asteroid-city.webp": {
+    "source_page": "https://www.focusfeatures.com/article/asteroid-city_first-look",
+    "source_image": "https://images.contentstack.io/v3/assets/blt223a4a92692ca457/blt75bbbc837c982edf/68a382465aa6f95a3ff91939/5909_artcont_1680094205.jpg?branch=production&width=3840",
+    "credit": "Focus Features",
+    "film": "Asteroid City (2023)"
+  },
+  "Essays/still-life.webp": {
+    "source_page": "https://bigworldpictures.org/films/stilllife/index.html",
+    "source_image": "https://bigworldpictures.org/films/stilllife/photos/StillLife3.jpg",
+    "credit": "Big World Pictures",
+    "film": "Still Life (2006)"
+  }
+}
