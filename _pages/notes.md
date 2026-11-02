@@ -1,5 +1,5 @@
----
 layout: page
+---
 title: Notes
 permalink: /notes/
 nav: true
@@ -69,6 +69,15 @@ nav_order: 4
     text-decoration-thickness: 2px;
   }
 
+  .note-preview__subtitle {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-height: 1.5;
+    opacity: 0.75;
+  }
+
   .note-preview__description {
     margin: 0;
     font-size: 0.95rem;
@@ -100,52 +109,34 @@ nav_order: 4
   }
 </style>
 
-### Reports
-
-<!-- Entry order: PDF creation date, course (omitted for essays), document title, and primary document language.
-     Dates below come from each PDF's CreationDate metadata, not assignment deadlines.
-     Copy an article to add an entry; update its image, date, course, PDF link, title, language, and description. -->
-<article class="note-preview">
-  <img
-    class="note-preview__image note-preview__image--figure"
-    src="{{ '/assets/img/Notes/Reports/hypermesh-cylinder-flow.webp' | relative_url }}"
-    alt="Simulated streamlines and vortex shedding behind a circular cylinder"
-    width="160"
-    height="120"
-    loading="lazy"
-  >
-  <div>
-    <h4 class="note-preview__title">
-      <span class="note-preview__meta"><time datetime="2026-06-03" title="PDF creation date">20260603</time> · Applied Fluid Mechanics ·</span>
-      <a href="{{ '/assets/pdf/reports/HyperMesh.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="ko">HyperMesh CFD HW 3</a>
-      <span class="note-preview__language">Korean</span>
-    </h4>
-    <p class="note-preview__description">CFD analysis of cylinder flow, vortex shedding, and surface pressure.</p>
-  </div>
-</article>
-
-<article class="note-preview">
-  <img
-    class="note-preview__image note-preview__image--figure"
-    src="{{ '/assets/img/Notes/Reports/panel-airfoil-pressure.webp' | relative_url }}"
-    alt="Pressure contours around a Joukowski airfoil calculated with the panel method"
-    width="160"
-    height="120"
-    loading="lazy"
-  >
-  <div>
-    <h4 class="note-preview__title">
-      <span class="note-preview__meta"><time datetime="2026-05-26" title="PDF creation date">20260526</time> · Applied Fluid Mechanics ·</span>
-      <a href="{{ '/assets/pdf/reports/Panel.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="ko">Panel Method HW 3</a>
-      <span class="note-preview__language">Korean</span>
-    </h4>
-    <p class="note-preview__description">Panel-method analysis of potential flow around cylinders and Joukowski airfoils.</p>
-  </div>
-</article>
-
----
-
 ### Essays
+
+<!-- Entry order: PDF creation date, Korean title, and English title, each on its own line.
+     Dates below come from each PDF's CreationDate metadata, not assignment deadlines.
+     Copy an article to add an entry; update its image, date, PDF link, titles, and language. -->
+<article class="note-preview">
+  <img
+    class="note-preview__image"
+    src="{{ '/assets/img/Notes/Essays/still-life.webp' | relative_url }}"
+    alt="Shen Hong overlooking the river and misty mountains in Still Life"
+    width="160"
+    height="120"
+    loading="lazy"
+  >
+  <div>
+    <h4 class="note-preview__title">
+      <span class="note-preview__meta"><time datetime="2026-10-11" title="PDF creation date">2026 Oct. 11</time></span><br>
+      <a href="{{ '/assets/pdf/essays/Still%20Life.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="ko" lang="ko">
+        지아장커의 〈동〉과 〈스틸 라이프〉에 나타난 개인의 역사 기록법
+      </a>
+      <span class="note-preview__language">Korean</span><br>
+      <span class="note-preview__subtitle">Recording individual histories through documentary and fiction in Jia Zhangke's Dong and Still Life.</span>
+    </h4>
+    <p class="note-preview__credit">
+      Film still: <a href="https://bigworldpictures.org/films/stilllife/index.html" target="_blank" rel="noopener noreferrer">Big World Pictures</a>
+    </p>
+  </div>
+</article>
 
 <article class="note-preview">
   <img
@@ -158,66 +149,15 @@ nav_order: 4
   >
   <div>
     <h4 class="note-preview__title">
-      <span class="note-preview__meta"><time datetime="2024-11-17" title="PDF creation date">20241117</time> ·</span>
+      <span class="note-preview__meta"><time datetime="2024-11-17" title="PDF creation date">2024 Nov. 17</time></span><br>
       <a href="{{ '/assets/pdf/essays/Asteroid%20city.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="ko" lang="ko">
         잠들지 않으면 깨어날 수 없다 — 웨스 앤더슨의 〈애스터로이드 시티〉(2023)에 대해
       </a>
-      <span class="note-preview__language">Korean</span>
+      <span class="note-preview__language">Korean</span><br>
+      <span class="note-preview__subtitle">Cinema, grief, and the possibility of healing in Wes Anderson's Asteroid City.</span>
     </h4>
-    <p class="note-preview__description">Cinema, grief, and the possibility of healing in Wes Anderson's Asteroid City.</p>
     <p class="note-preview__credit">
       Film still: <a href="https://www.focusfeatures.com/article/asteroid-city_first-look" target="_blank" rel="noopener noreferrer">Focus Features</a>
     </p>
   </div>
 </article>
-
-<article class="note-preview">
-  <img
-    class="note-preview__image"
-    src="{{ '/assets/img/Notes/Essays/still-life.webp' | relative_url }}"
-    alt="Shen Hong overlooking the river and misty mountains in Still Life"
-    width="160"
-    height="120"
-    loading="lazy"
-  >
-  <div>
-    <h4 class="note-preview__title">
-      <span class="note-preview__meta"><time datetime="2026-10-11" title="PDF creation date">20261011</time> ·</span>
-      <a href="{{ '/assets/pdf/essays/Still%20Life.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="ko" lang="ko">
-        지아장커의 〈동〉과 〈스틸 라이프〉에 나타난 개인의 역사 기록법
-      </a>
-      <span class="note-preview__language">Korean</span>
-    </h4>
-    <p class="note-preview__description">Recording individual histories through documentary and fiction in Jia Zhangke's Dong and Still Life.</p>
-    <p class="note-preview__credit">
-      Film still: <a href="https://bigworldpictures.org/films/stilllife/index.html" target="_blank" rel="noopener noreferrer">Big World Pictures</a>
-    </p>
-  </div>
-</article>
-
----
-
-### Slides
-
-<article class="note-preview">
-  <img
-    class="note-preview__image note-preview__image--figure"
-    src="{{ '/assets/img/Notes/Slides/axial-compressor-blades.webp' | relative_url }}"
-    alt="Mach-number contours around optimized axial compressor rotor and stator blades"
-    width="160"
-    height="120"
-    loading="lazy"
-  >
-  <div>
-    <h4 class="note-preview__title">
-      <span class="note-preview__meta"><time datetime="2026-06-08" title="PDF creation date">20260608</time> · Flow and Design ·</span>
-      <a href="{{ '/assets/pdf/slides/26-1%20Flow%20and%20Design%20Term%20Project.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="en">
-        Blade Optimization: Single-Stage Axial Flow Compressors — Term Project
-      </a>
-      <span class="note-preview__language">English</span>
-    </h4>
-    <p class="note-preview__description">Blade geometry and blade-count optimization for single-stage axial flow compressors.</p>
-  </div>
-</article>
-
-<p class="note-preview__credit">Dates reflect PDF creation metadata.</p>
