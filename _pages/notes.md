@@ -109,11 +109,9 @@ nav_order: 4
   }
 </style>
 
-### Essays
-
 <!-- Entry order: PDF creation date, Korean title, and English title, each on its own line.
      Dates below come from each PDF's CreationDate metadata, not assignment deadlines.
-     Copy an article to add an entry; update its image, date, PDF link, titles, and language. -->
+     Copy an article to add an entry; update its image, date, essay page link, titles, and language. -->
 <article class="note-preview">
   <img
     class="note-preview__image"
@@ -126,11 +124,11 @@ nav_order: 4
   <div>
     <h4 class="note-preview__title">
       <span class="note-preview__meta"><time datetime="2026-10-11" title="PDF creation date">2026 Oct. 11</time></span><br>
-      <a href="{{ '/assets/pdf/essays/Still%20Life.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="ko" lang="ko">
+      <a href="{{ '/notes/still-life/' | relative_url }}" hreflang="ko" lang="ko">
         지아장커의 〈동〉과 〈스틸 라이프〉에 나타난 개인의 역사 기록법
       </a>
       <span class="note-preview__language">Korean</span><br>
-      <span class="note-preview__subtitle">Recording individual histories through documentary and fiction in Jia Zhangke's Dong and Still Life.</span>
+      <span class="note-preview__subtitle">How to record individual histories: Through Jia Zhangke's "Dong" and "Still Life"</span>
     </h4>
     <p class="note-preview__credit">
       Film still: <a href="https://bigworldpictures.org/films/stilllife/index.html" target="_blank" rel="noopener noreferrer">Big World Pictures</a>
@@ -150,11 +148,11 @@ nav_order: 4
   <div>
     <h4 class="note-preview__title">
       <span class="note-preview__meta"><time datetime="2024-11-17" title="PDF creation date">2024 Nov. 17</time></span><br>
-      <a href="{{ '/assets/pdf/essays/Asteroid%20city.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" hreflang="ko" lang="ko">
+      <a href="{{ '/notes/asteroid-city/' | relative_url }}" hreflang="ko" lang="ko">
         잠들지 않으면 깨어날 수 없다 — 웨스 앤더슨의 〈애스터로이드 시티〉(2023)에 대해
       </a>
       <span class="note-preview__language">Korean</span><br>
-      <span class="note-preview__subtitle">Cinema, grief, and the possibility of healing in Wes Anderson's Asteroid City.</span>
+      <span class="note-preview__subtitle">You can't wake up if you don't fall asleep: about Wes Anderson's "Asteroid City"</span>
     </h4>
     <p class="note-preview__credit">
       Film still: <a href="https://www.focusfeatures.com/article/asteroid-city_first-look" target="_blank" rel="noopener noreferrer">Focus Features</a>
